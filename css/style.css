@@ -196,14 +196,25 @@ margin-right: 30px;
     padding-bottom: 30px;
     font-size: 50px;
 }
-#service-section .image-box img{
-margin: 50px;
+#service-section .image-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    right: 20%;
+    width: 100%;
+
 }
-#service-section .service-container .learn{
+ .learn{
+
 text-align: right;
-padding-right: 125px;
-padding-bottom: 50px;
+padding-left: 80%;
+padding-top: 20px;
+padding-bottom: 30px;
 }
+
 #contact-section{
     background: #F2F2F2;
 }
@@ -275,20 +286,23 @@ padding-bottom: 50px;
      color: #3a3636;
      font-weight: 600px;
 }
-#brands{
-    background-color: #b8b8b8;
-    
-}
- 
-
 .brand-header{
-    text-align: center;
-    padding-top: 100px;
-    font-size: 48px;
+    font-weight: 900px;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 40%;
+
 }
-#brands .brand-form .container{
-    padding-bottom: 40px;
+.brand-form{
+    width: 80%;
 }
-.brand-container-too{
-   padding-bottom: 200px;
+
+.brand-form .image-box img{
+     width: 100%;
+     padding-left: 210px;
+
+
+    
+    
+
 }
