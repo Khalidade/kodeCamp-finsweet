@@ -747,7 +747,10 @@ font-size: 40px;
     color: white;
 
 }
-@media (max-width: 426px){
+@media  (max-width: 426px)
+
+    
+ {
     .main-header{
         flex-direction: column;
         align-items: flex-start;
@@ -801,7 +804,7 @@ font-size: 40px;
         flex-direction: column;
     }
     #quote-section{
-        width: 500px;
+        width: 620px;
     }
     #quote-section .left-section h3{
         font-size: 35px;
@@ -823,14 +826,14 @@ font-size: 40px;
         padding-left: 70px;
     }
     #service-section{
-        width: 500px;
+        width: 620px;
     }
     .learn p{
         padding-left: 40%;
 
     }
     #contact-section{
-        width: 500px;
+        width: 620px;
     }
     #contact-section .contact-box {
         height: 100vh;
@@ -851,7 +854,7 @@ font-size: 40px;
         height: 40vh;
     }
     .brand-section{
-        width: 500px;
+        width: 620px;
     }
     .brand-header{
         font-size: 20px;
@@ -859,7 +862,7 @@ font-size: 40px;
     padding-bottom: 40px;
     }
     #review-section{
-        width: 500px;
+        width: 620px;
     }
     .testimonial-container{
         flex-direction: column;
@@ -876,7 +879,7 @@ font-size: 40px;
         font-size: 20px;
     }
     #question-section{
-        width: 500px;
+        width: 620px;
     }
     .first-question{
         height: 170px;
@@ -886,7 +889,7 @@ font-size: 40px;
     padding: 0 0 15px 15px;
     }
     #footer-section{
-        width: 500px;
+        width: 620px;
     }
     .footer-form{
         flex-direction: column;
@@ -907,6 +910,7 @@ font-size: 40px;
         flex-direction: column;
     }
 }
+
 
 
    @media (max-width: 769px) {
@@ -938,4 +942,5 @@ font-size: 40px;
 
 
 }
+ 
    
