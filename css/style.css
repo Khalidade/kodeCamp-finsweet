@@ -747,7 +747,7 @@ font-size: 40px;
     color: white;
 
 }
-@media (max-width: 500px){
+@media (max-width: 426px){
     .main-header{
         flex-direction: column;
         align-items: flex-start;
@@ -783,7 +783,7 @@ font-size: 40px;
         flex-direction: column;
     }
     #hero-section .text-section, #hero-section .image-section{
-        width: 100%;
+        width: 60%;
     }
     #hero-section .text-section{
         order: 2;
@@ -801,7 +801,7 @@ font-size: 40px;
         flex-direction: column;
     }
     #quote-section{
-        width: 620px;
+        width: 500px;
     }
     #quote-section .left-section h3{
         font-size: 35px;
@@ -823,14 +823,14 @@ font-size: 40px;
         padding-left: 70px;
     }
     #service-section{
-        width: 620px;
+        width: 500px;
     }
     .learn p{
         padding-left: 40%;
 
     }
     #contact-section{
-        width: 620px;
+        width: 500px;
     }
     #contact-section .contact-box {
         height: 100vh;
@@ -839,7 +839,7 @@ font-size: 40px;
     }
     #contact-section .contact-box .write-up{
         width: 100%;
-        left: 197px;
+        left: 55px;
     }
     #contact-section .contact-box .write-up h2{
         font-size: 15px;
@@ -851,7 +851,7 @@ font-size: 40px;
         height: 40vh;
     }
     .brand-section{
-        width: 620px;
+        width: 500px;
     }
     .brand-header{
         font-size: 20px;
@@ -859,7 +859,7 @@ font-size: 40px;
     padding-bottom: 40px;
     }
     #review-section{
-        width: 620px;
+        width: 500px;
     }
     .testimonial-container{
         flex-direction: column;
@@ -876,7 +876,7 @@ font-size: 40px;
         font-size: 20px;
     }
     #question-section{
-        width: 620px;
+        width: 500px;
     }
     .first-question{
         height: 170px;
@@ -886,7 +886,7 @@ font-size: 40px;
     padding: 0 0 15px 15px;
     }
     #footer-section{
-        width: 620px;
+        width: 500px;
     }
     .footer-form{
         flex-direction: column;
@@ -906,9 +906,10 @@ font-size: 40px;
     .footer-nav ul{
         flex-direction: column;
     }
-
 }
-   @media (max-width: 768px) {
+
+
+   @media (max-width: 769px) {
     #contact-section .contact-box .write-up h2{
         font-size: 20px;
     }
@@ -936,5 +937,5 @@ font-size: 40px;
     }
 
 
-    
-   }
+}
+   
