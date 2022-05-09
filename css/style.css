@@ -856,6 +856,10 @@ font-size: 40px;
     .brand-section{
         width: 620px;
     }
+    .brand-form .logo{
+        flex-direction: column;
+
+    }
     .brand-header{
         font-size: 20px;
         font-size: 20px;
