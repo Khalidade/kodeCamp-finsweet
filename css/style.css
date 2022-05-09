@@ -747,12 +747,10 @@ font-size: 40px;
     color: white;
 
 }
-@media  (max-width: 426px)
-
-    
- {
+@media (max-width: 426px){
     .main-header{
         flex-direction: column;
+    
         align-items: flex-start;
     }
     .right-section ul{
@@ -782,11 +780,13 @@ font-size: 40px;
         padding: 10px 0;
 
     }
+
     .flex-on-column{
         flex-direction: column;
     }
+
     #hero-section{
-        width: 620px;
+        
     }
     #hero-section .text-section, #hero-section .image-section{
         width: 60%;
@@ -806,9 +806,7 @@ font-size: 40px;
     .quote-flex{
         flex-direction: column;
     }
-    #quote-section{
-        width: 620px;
-    }
+    
     #quote-section .left-section h3{
         font-size: 35px;
     }
@@ -828,24 +826,22 @@ font-size: 40px;
         width: 100%;
         padding-left: 70px;
     }
-    #service-section{
-        width: 620px;
-    }
+   
+
+
     .learn p{
         padding-left: 40%;
 
     }
-    #contact-section{
-        width: 620px;
-    }
+    
     #contact-section .contact-box {
         height: 100vh;
         flex-direction: column;
         padding-top: 30px;
     }
     #contact-section .contact-box .write-up{
-        width: 100%;
-        right: 55px;
+       position: relative;
+       width: 80%;
     }
     #contact-section .contact-box .write-up h2{
         font-size: 15px;
@@ -856,12 +852,9 @@ font-size: 40px;
     #contact-section .contact-box .full-car{
         height: 40vh;
     }
-    .brand-section{
-        width: 620px;
-    }
     .brand-form .logo{
         flex-direction: column;
-
+        align-items: flex-start;
     }
     .brand-form .logo img{
         width: 60%;
@@ -869,12 +862,10 @@ font-size: 40px;
 
     .brand-header{
         font-size: 20px;
-        font-size: 20px;
     padding-bottom: 40px;
     }
-    #review-section{
-        width: 620px;
-    }
+    
+    
     .testimonial-container{
         flex-direction: column;
         margin-top: 100px;
@@ -889,9 +880,8 @@ font-size: 40px;
         text-align: center;
         font-size: 20px;
     }
-    #question-section{
-        width: 620px;
-    }
+    
+    
     .first-question{
         height: 170px;
     }
@@ -899,9 +889,7 @@ font-size: 40px;
         width: 50%;
     padding: 0 0 15px 15px;
     }
-    #footer-section{
-        width: 620px;
-    }
+   
     .footer-form{
         flex-direction: column;
     }
@@ -922,9 +910,7 @@ font-size: 40px;
     }
 }
 
-
-
-   @media (max-width: 769px) {
+@media (max-width: 769px) {
     #contact-section .contact-box .write-up h2{
         font-size: 20px;
     }
