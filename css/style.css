@@ -421,7 +421,7 @@ padding-left: 20px;
 }
 .first-question{
     width: 100%;
-    height: 150px;
+    height: 100px;
    
     margin: auto;
     
@@ -432,6 +432,7 @@ padding-left: 20px;
 .first-question p{
     padding: 15px;
     color: grey;
+    display: none;
 }
 .sub-header{
     display: flex;
@@ -448,10 +449,12 @@ padding-left: 20px;
     
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
     
     background: #ffffff;
     padding: 15px;
+    flex-direction: none;
     
    
 }
@@ -806,7 +809,7 @@ font-size: 40px;
         flex-direction: column;
     }
     
-    #quote-section .left-section h3{
+    #quote-section .left-section h2{
         font-size: 35px;
     }
 
@@ -822,14 +825,18 @@ font-size: 40px;
     }
 
     .first-section , .second-section {
-        width: 100%;
-        padding-left: 70px;
+        
+            width: 200px;
+    }
+    .learn img{
+        width: 50%;
     }
    
 
 
     .learn p{
         padding-left: 40%;
+    
 
     }
     
@@ -879,16 +886,21 @@ font-size: 40px;
         text-align: center;
         font-size: 20px;
     }
+    .review-container .lines .img-1{
+        display: none;
+    }
+        
+    
     #question-section .header {
-        font-size: 35px;
+        font-size: 25px;
     }
     .question-form{
-        overflow: hidden;
+        
     }
     
     
     .first-question{
-        height: 170px;
+        height: 100px;
         width: 100%;
     }
     .first-question p{
