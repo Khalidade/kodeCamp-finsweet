@@ -835,9 +835,13 @@ font-size: 40px;
 
 
     .learn p{
-        padding-left: 40%;
+        padding-left: 10%;
     
 
+    }
+
+    #service-section .service-text h1{
+        font-size: 20px;
     }
     
     #contact-section .contact-box {
@@ -846,8 +850,8 @@ font-size: 40px;
         padding-top: 30px;
     }
     #contact-section .contact-box .write-up{
-       position: relative;
-       width: 80%;
+    
+       width: 60%;
     }
     #contact-section .contact-box .write-up h2{
         font-size: 15px;
@@ -856,7 +860,16 @@ font-size: 40px;
         width: 100%;
     }
     #contact-section .contact-box .full-car{
-        height: 40vh;
+        width: 100%;
+    }
+    .black-btn{
+        font-size: 10px;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    #contact-section .number-section{
+        height: 45vh;
+        
     }
     .brand-form .logo{
         flex-direction: column;
@@ -930,7 +943,7 @@ font-size: 40px;
 
 @media (max-width: 769px) {
     #contact-section .contact-box .write-up h2{
-        font-size: 20px;
+        font-size: 15px;
     }
     .review-container h4{
         font-size: 25px;
